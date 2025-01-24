@@ -61,7 +61,7 @@ function AtualizaMedia(){
     }
     footLinha += '</tr>'*/
 
-    document.getElementById('média-final-valor').innerHTML = médiaFinal;
+    document.getElementById('média-final-valor').innerHTML = médiaFinal.toFixed(2);
     document.getElementById('média-final-resultado').innerHTML = médiaFinal >= notaMinima ? spanAprovado : spanReprovado;
 
 }
